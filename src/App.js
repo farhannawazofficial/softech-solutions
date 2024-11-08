@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import React from 'react';
+import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection'; // Import other sections here
+import Services from './components/Services';
+import TrustSection from './components/TrustSection';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <HeroSection />
+      <Services />
+      <TrustSection />
+      {/* Add other sections/components here */}
     </div>
   );
 }
