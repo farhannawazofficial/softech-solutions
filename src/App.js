@@ -10,6 +10,7 @@ import TrustSection from './components/TrustSection';
 import CompaniesSection from './components/CompaniesSection';
 import Testimonials from './components/Testimonials';
 import ProjectsSection from './components/ProjectsSection'
+import BuildingSoftwareSection from './components/BuildingSoftwareSection';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <CompaniesSection />
       <Testimonials />
       <ProjectsSection />
+      <BuildingSoftwareSection />
       {/* Add other sections/components here */}
     </div>
   );
