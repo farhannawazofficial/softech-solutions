@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <h2>Softech Solutions</h2>
+        <h2>Nexvy</h2>
       </div>
       <div className={`navbar-links ${isMobileMenuOpen ? "active" : ""}`}>
         <a href="#about-us">About Us</a>
