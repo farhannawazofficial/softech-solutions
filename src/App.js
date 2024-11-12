@@ -11,6 +11,7 @@ import CompaniesSection from './components/CompaniesSection';
 import Testimonials from './components/Testimonials';
 import ProjectsSection from './components/ProjectsSection'
 import BuildingSoftwareSection from './components/BuildingSoftwareSection';
+import DesignDevelopmentSection from './components/DesignDevelopmentSection';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Testimonials />
       <ProjectsSection />
       <BuildingSoftwareSection />
+      <DesignDevelopmentSection />
       {/* Add other sections/components here */}
     </div>
   );
