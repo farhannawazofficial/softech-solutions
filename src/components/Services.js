@@ -3,25 +3,30 @@ import Slider from 'react-slick';
 import './Services.css';
 
 const services = [
-  {
-    icon: '📱',
-    title: 'Mobile App Development',
-    description: 'A website is an extension of yourself and we can help you express it properly. Your website is your number one marketing asset because we live in a digital age.',
-  },
+ 
   {
     icon: '💻',
     title: 'Web Design & Development',
     description: 'A website is an extension of yourself and we can help you express it properly. Your website is your number one marketing asset because we live in a digital age.',
   },
-  {
-    icon: '🛠️',
-    title: 'Software Testing Service',
-    description: 'A website is an extension of yourself and we can help you express it properly. Your website is your number one marketing asset because we live in a digital age.',
-  },
+ 
   {
     icon: '🎨',
     title: 'Graphic Design',
     description: 'A website is an extension of yourself and we can help you express it properly. Your website is your number one marketing asset because we live in a digital age.',
+  },
+  
+  {
+    icon: '📱',
+    title: 'Mobile App Development',
+    description: 'A website is an extension of yourself and we can help you express it properly. Your website is your number one marketing asset because we live in a digital age.',
+  
+  },
+  {
+    icon: '🛠️',
+    title: 'Software Testing Service',
+    description: 'A website is an extension of yourself and we can help you express it properly. Your website is your number one marketing asset because we live in a digital age.',
+  
   },
   {
     icon: '📈',
