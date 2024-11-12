@@ -1,0 +1,55 @@
+.tech-stack-section {
+    text-align: center;
+    padding: 2rem;
+}
+
+.tech-stack-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.tech-stack-section h2 span {
+    color: #D81B60; /* Customize to match your theme */
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.tabs button {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: #333;
+}
+
+.tabs .active {
+    font-weight: bold;
+    color: #D81B60; /* Customize to match your theme */
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1.5rem;
+    justify-items: center;
+}
+
+.logo-item {
+    text-align: center;
+}
+
+.logo-item img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.logo-item p {
+    font-size: 0.875rem;
+    color: #555;
+}
