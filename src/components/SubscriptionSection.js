@@ -10,7 +10,7 @@ const SubscriptionSection = () => {
             </div>
             <div className="footer-content">
                 <div className="footer-company">
-                    <h4>Softech Solutions</h4>
+                    <h4>Nexvy</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     <div className="footer-icons">
                         <img src="https://via.placeholder.com/50x20" alt="Google Icon" />
@@ -34,11 +34,20 @@ const SubscriptionSection = () => {
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     <p>+92 3197781723</p>
                     <div className="footer-socials">
-                        <i className="fab fa-facebook-f"></i>
-                        <i className="fab fa-twitter"></i>
-                        <i className="fab fa-instagram"></i>
-                        <i className="fab fa-linkedin"></i>
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                            <i className="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                            <i className="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                            <i className="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                            <i className="fab fa-linkedin"></i>
+                        </a>
                     </div>
+
                 </div>
             </div>
             <footer className="footer-bottom">
