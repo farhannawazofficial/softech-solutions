@@ -19,7 +19,7 @@ const services = [
   {
     icon: '📱',
     title: 'Mobile App Development',
-    description: 'A website is an extension of yourself and we can help you express it properly. Your website is your number one marketing asset because we live in a digital age.',
+    description: 'A website is an extension of yourself and we can help you express it properly.  Your website is your number one marketing asset because we live in a digital age.',
   
   },
   {

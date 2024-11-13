@@ -8,7 +8,7 @@
   .services h2 {
     font-size: 2rem;
     font-weight: bold;
-    color: #333;
+    color: #3f34e8;
     margin-bottom: 2rem;
   }
   
@@ -16,7 +16,7 @@
   .service-card {
     background-color: #ffffff;
     border-radius: 10px;
-    padding: 2rem;
+    padding: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s;

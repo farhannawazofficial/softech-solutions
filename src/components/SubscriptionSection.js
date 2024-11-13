@@ -12,10 +12,10 @@ const SubscriptionSection = () => {
                 <div className="footer-company">
                     <h4>Nexvy</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <div className="footer-icons">
+                    {/* <div className="footer-icons">
                         <img src="https://via.placeholder.com/50x20" alt="Google Icon" />
                         <img src="https://via.placeholder.com/50x20" alt="100 Icon" />
-                    </div>
+                    </div> */}
                 </div>
                 <div className="footer-links">
                     <h4>Links</h4>
