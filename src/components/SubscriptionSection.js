@@ -42,7 +42,7 @@ const SubscriptionSection = () => {
                 </div>
             </div>
             <footer className="footer-bottom">
-                <p>© 2023 Copyright by JK Developers. All rights reserved.</p>
+                <p>© 2023 Copyright by Nexvy Developers. All rights reserved.</p>
             </footer>
         </div>
     );

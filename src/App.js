@@ -2,6 +2,8 @@
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 import React from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection'; // Import other sections here
