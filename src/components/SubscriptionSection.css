@@ -1,0 +1,101 @@
+.subscription-section {
+    background-color: #f9fafe;
+    padding: 2rem;
+    color: #333;
+}
+
+.cta-box {
+    background-color: #e7f3ff;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.cta-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta-button {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+    border-top: 1px solid #ddd;
+}
+
+.footer-company, .footer-links, .footer-contact {
+    flex: 1 1 200px;
+}
+
+.footer-company h4, .footer-links h4, .footer-contact h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-company p, .footer-contact p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.footer-icons img {
+    margin-right: 0.5rem;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.3rem;
+}
+
+.footer-contact .footer-socials {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.footer-socials i {
+    font-size: 1.2rem;
+    color: #666;
+    cursor: pointer;
+}
+
+.footer-socials i:hover {
+    color: #333;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #666;
+    border-top: 1px solid #ddd;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .cta-box h3 {
+        font-size: 1.25rem;
+    }
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}

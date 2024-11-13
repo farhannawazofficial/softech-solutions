@@ -14,8 +14,7 @@ import BuildingSoftwareSection from './components/BuildingSoftwareSection';
 import DesignDevelopmentSection from './components/DesignDevelopmentSection';
 import TechStackSection from './components/TechStackSection';
 import DevelopmentProcessSection from './components/DevelopmentProcessSection';
-import FeaturedResourcesSection from './components/FeaturedResourcesSection';
-
+import SubscriptionSection from './components/SubscriptionSection';
 
 function App() {
   return (
@@ -31,7 +30,7 @@ function App() {
       <DesignDevelopmentSection />
       <TechStackSection />
       <DevelopmentProcessSection />
-      <FeaturedResourcesSection />
+      <SubscriptionSection />
       {/* Add other sections/components here */}
     </div>
   );
