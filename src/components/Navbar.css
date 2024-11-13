@@ -12,11 +12,10 @@
   }
   
   /* Logo */
-  .navbar-logo h2 {
-    font-size: 1.5rem;
-    color: #333;
-  }
-  
+  .navbar-logo img {
+    height: 40px; /* Adjust as needed */
+    width: auto; /* Keeps the aspect ratio */
+}
   /* Navbar Links */
   .navbar-links {
     display: flex;
@@ -31,12 +30,12 @@
   }
   
   .navbar-links a:hover {
-    color: #e74c3c; /* Accent color */
+    color: #3f34e8; /* Accent color */
   }
   
   /* Contact Button */
   .navbar-contact {
-    background-color: #e74c3c;
+    background-color: #3f34e8;
     color: #fff;
     border: none;
     padding: 0.5rem 1rem;
@@ -47,7 +46,7 @@
   }
   
   .navbar-contact:hover {
-    background-color: #d63d2e;
+    background-color: #0f0691;
   }
   
   /* Mobile Menu Toggle Button */
@@ -89,4 +88,6 @@
       display: flex;
     }
   }
+
+
   

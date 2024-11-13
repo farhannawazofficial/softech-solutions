@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
+import logo from '../assets/images/landscrep logo.png';
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -11,7 +12,9 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <h2>Nexvy</h2>
+      <a href="#home">
+                    <img src={logo} alt="Company Logo" className="logo-image" />
+                </a>
       </div>
       <div className={`navbar-links ${isMobileMenuOpen ? "active" : ""}`}>
         <a href="#about-us">About Us</a>
